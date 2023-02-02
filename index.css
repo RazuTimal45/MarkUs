@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.section_1{
+    padding-top:200px;
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:550px;
+    font-family: Verdana;
+    filter:brightness(1);
+}
+#explore{
+   text-decoration: none;
+   background-color: aquamarine;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+#explore:hover{
+background-color: rgb(12, 120, 84);
+color:white;
+}
+.form-group{
+    border:1px solid black;
+    padding:5px;
+}
+#form{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+input[type=text],input[type=number],input[type=email]{
+    width: 80%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    color:black;
+    font-weight: 500;
+}
+span{
+    color:black;
+}
+.section_2{
+    padding:5% 25%;
+    background-image: url(images/background1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:950px;
+    font-family: Verdana;
+    margin-top:1px;
+}
+.registration{
+    padding:1% 10%;
+    border:2px solid white;
+    box-shadow: 0 0 20px 0 #ccc, 0 5px 5px 0 #ccc ;
+    filter:brightness(1);
+    border-radius: 5px;
+}
+.registration .message{
+    margin-top: 10px;
+    font-size: 12px;
+}
+#register{
+    background-color: white;
+    border:1px solid white;
+    padding:2px 5px;
+    color:black;
+    border-radius:5px;
+}
+#register:hover{
+    background-color: black;
+    color:white;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px 0 #ccc, 0 5px 5px 0 #ccc ;
+}
+footer{
+    background:rgb(2, 12, 47);
+    color:white;
+    height:220px;
+    width:100%;
+    padding:20px;
+    border-top:1px solid white;
+}
+ul li{
+  font-size: 13px;
+}
+.icons{
+    font-size: 13px;
+}
+@media screen and (max-width: 1000px) { 
+    .register{
+        padding:5% 10%;
+        border:1px solid white;
+    }
+    .section_2{
+        padding:2% 20%;
+        margin-top:1px;
+    }
+    #container{
+        padding: 10px 50px;
+        width:100%;
+    } 
+    footer{
+        height:260px;
+    }
+}
+
+@media screen and (max-width: 700px) { 
+    .register{
+        padding:5% 10%;
+        border:1px solid white;
+    }
+    .section_2{
+        padding:2% 5%;
+        margin-top:1px;
+        height:1000px;
+    }
+    input[type=text],input[type=email],input[type=date],input[type=number]{
+        width:100%;
+    }
+    footer{
+        height:550px;
+    }
+    .card{
+        margin-left:25%;
+    }
+}
